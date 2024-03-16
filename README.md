@@ -30,6 +30,7 @@ Keep read ids             =
 Nucleotide database       = /path/to/nucleotide/database/from/NCBI/nt
 Taxonomy database         = /path/to/taxanomy/database/from/NCBI/taxonomy.xml
 Taxonomy only             = yes
+Threads                   = 4
 Output path               = /path/to/output/folder/
 </pre>
 
@@ -43,6 +44,7 @@ Output path               = /path/to/output/folder/
 #Nucleotide database       = /path/to/nucleotide/database/from/NCBI/nt (https://www.ncbi.nlm.nih.gov/IEB/ToolBox/CPP_DOC/lxr/source/src/app/blast/update_blastdb.pl) (Other databeses with the same structure can also be used)
 #Taxonomy database         = /home/nicolas/Perl/OIST/eDNA/taxonomy.xml (http://ftp.ebi.ac.uk/pub/databases/ena/taxonomy/taxonomy.xml.gz)
 #Taxonomy only             = When yes, ASVs will directly be used for taxonomy assignment without prior clustering. (yes/no)
+#Threads                   = Increasing the number of cores will speed up the runtime.
 #Output path               = You can change the directory where all the output files wil be stored.
 </pre>
 </html>
