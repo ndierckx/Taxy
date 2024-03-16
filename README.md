@@ -29,7 +29,7 @@ Reverse reads             = /path/to/reads/reads_2.fastq (at the moment only the
 Keep read ids             = 
 Nucleotide database       = /path/to/nucleotide/database/from/NCBI/nt
 Taxonomy database         = /path/to/taxanomy/database/from/NCBI/taxonomy.xml
-Taxonomy only             =  yes
+Taxonomy only             = yes
 Output path               = /path/to/output/folder/
 </pre>
 
