@@ -14,6 +14,22 @@ nicolasdierckxsens at hotmail dot com
 
 ## Instructions
 
+### 1. Install dependencies
+
+- Install BLAST
+- Install MAFFT
+- Install Perl modules: MCE::Child && MCE::Channel
+
+#### With Conda:
+
+<code>conda create -n taxy -c conda-forge -c bioconda perl</code>
+
+<code>conda install blast</code>
+
+<code>conda install mafft</code>
+
+<code>conda install perl-mce</code>
+  
 ## Configuration file
 
 This is an example of a configuration file for the assembly of a chloroplast.
