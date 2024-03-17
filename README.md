@@ -19,6 +19,8 @@ nicolasdierckxsens at hotmail dot com
 - Install BLAST
 - Install MAFFT
 - Install Perl modules: MCE::Child && MCE::Channel
+  
+  <code>cpan install MCE</code>
 
 #### With Conda:
 
@@ -29,6 +31,28 @@ nicolasdierckxsens at hotmail dot com
 <code>conda install mafft</code>
 
 <code>conda install perl-mce</code>
+
+
+
+### 2. Download local databases
+
+- Nucleotide database - Can be downloaded or updated automatically with the following script: 
+
+  https://www.ncbi.nlm.nih.gov/IEB/ToolBox/CPP_DOC/lxr/source/src/app/blast/update_blastdb.pl
+
+  Instructions: https://www.ncbi.nlm.nih.gov/books/NBK569850/
+
+  <code>perl update_blastdb.pl –decompress nt</code>
+
+- Taxonomy database - Can be downloaded here: 
+
+  http://ftp.ebi.ac.uk/pub/databases/ena/taxonomy/taxonomy.xml.gz
+
+
+### 3. Run Taxy
+
+<code>perl Taxy0.1.pl -c config.txt</code>
+
   
 ## Configuration file
 
