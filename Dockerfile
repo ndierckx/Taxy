@@ -14,6 +14,8 @@ RUN apt -y update &&\
 
 COPY ./Taxy0.1.pl /usr/bin
 
+RUN chmod 775 /usr/bin/Taxy0.1.pl
+
 RUN apt clean &&\
     rm -rf /var/lib/apt var/cache/apt &&\
     apt -y purge apt --allow-remove-essential --auto-remove
@@ -21,3 +23,5 @@ RUN apt clean &&\
 # podman build -f Dockerfile -t taxy
 # podman save -o Taxy.tar taxy
 # singularity build --fakeroot Taxy.sif docker-archive://Taxy.tar
+# singularity pull docker://ghcr.io/ndierckx/taxy:latest
+# ./taxy.sif Taxy0.1.pl
