@@ -42,7 +42,7 @@ nicolasdierckxsens at hotmail dot com
 
   Instructions: https://www.ncbi.nlm.nih.gov/books/NBK569850/
 
-  <code>perl update_blastdb.pl –decompress nt</code>
+  <code>perl update_blastdb.pl --decompress nt</code>
 
 - Taxonomy database - Can be downloaded here: 
 
@@ -55,10 +55,6 @@ nicolasdierckxsens at hotmail dot com
 
   
 ## Configuration file
-
-This is an example of a configuration file for the assembly of a chloroplast.
-To make the assembler work, your configuration file has to have the exact same structure.
-(Make sure there is always a space after the equals sign and every parameter is captured in one single line)
 
 **1. Example of configuration file:**
 <pre>
