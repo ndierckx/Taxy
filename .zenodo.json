@@ -1,0 +1,22 @@
+{
+  "title": "Taxy: taxonomy assignment of ASVs",
+  "upload_type": "software",
+  "description": "<p>Taxy is a Perl tool for the taxonomy assignment of amplicon sequence variants (ASVs), for example from eDNA metabarcoding studies. ASVs are searched with BLAST against a local NCBI nucleotide (nt) database and the hits are assigned taxonomy using a local taxonomy database. Searches run in parallel and Taxy is also available as a Docker image (ghcr.io/ndierckx/taxy).</p>",
+  "creators": [
+    {
+      "name": "Dierckxsens, Nicolas",
+      "affiliation": "Okinawa Institute of Science and Technology Graduate University",
+      "orcid": "0000-0001-8051-6602"
+    }
+  ],
+  "license": "agpl-3.0-only",
+  "keywords": [
+    "taxonomy assignment",
+    "amplicon sequence variants",
+    "ASV",
+    "metabarcoding",
+    "eDNA",
+    "BLAST",
+    "bioinformatics"
+  ]
+}
